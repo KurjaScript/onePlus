@@ -68,8 +68,10 @@
             }
         }
         &-model:hover {
-            border-bottom: 2px solid red;
-            // position: absolute;
+            background-image: linear-gradient(90deg, red, red);
+            background-size: 100% 2px;
+            background-repeat: no-repeat;
+            background-position: 0 100%;
         } 
     }
     &-right {
